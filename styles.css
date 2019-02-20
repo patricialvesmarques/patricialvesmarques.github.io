@@ -3,13 +3,15 @@
     padding: 0; 
     text-decoration: none;
     list-style: none;
-    font-family: Mukta, Sans-serif;
+    font-family: Questrial, Sans-serif;
+    line-height: 30px;
   }
-  
+
   .header {
-    z-index: 1;
-    padding: 40px;
-    height: 150px;
+    background-image: url("https://images.unsplash.com/photo-1477554193778-9562c28588c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    vertical-align: middle;
+    padding: 30px;
+    height: 100px;
     width: auto; 
     display: block;
     background-color: #efefef;
@@ -26,16 +28,23 @@
   .logo-container {
     height: 100%;
     display: table;
-    float: left;
+    text-align: center;
+    float: right;
   }
   
   .logo-container h1{
-    font-family: Mukta, Sans-serif;
+    font-family: Questrial, sans-serif;
     color: #101010;
+    font-weight: 800;
     letter-spacing: 2px; 
-    height: 100%;
     font-size: 35px;
-    float: left;
+  }
+
+  .subtitle{
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.5;
+    padding: 10px;
+    letter-spacing: 2px;
   }
   
   .content{
@@ -46,12 +55,11 @@
   .btn {
     display: block;
     align: center;
-    padding: 20px;
-    margin: 30px;
   }
   
   button {
     padding: 20px 40px;
+    margin: 20px;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -75,7 +83,14 @@
   
   .banner-title h1{
     font-size: 50px; 
-    font-family: Mukta;
     display: block; 
     width: 70%;
+  }
+
+  aside#sidebar {
+    float: left;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 1.3;
+    background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
   }
