@@ -46,6 +46,7 @@
   .btn {
     display: block;
     align: center;
+    padding: 20px;
   }
   
   button {
