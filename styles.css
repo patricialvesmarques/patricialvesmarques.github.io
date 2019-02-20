@@ -1,3 +1,79 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-}
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    list-style: none;
+    font-family: Mukta, Sans-serif;
+  }
+  
+  .header {
+    z-index: 1;
+    padding: 20px;
+    height: 200px;
+    width: auto; 
+    display: block;
+    background-color: #efefef;
+    box-shadow: 0px 8px 40px 2px #c9c9c9;
+  }
+  
+  .inner-header {
+    height: 100%;
+    width: 800px;
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  .logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+  }
+  
+  .logo-container h1{
+    font-family: Mukta, Sans-serif;
+    color: #101010;
+    letter-spacing: 2px; 
+    height: 100%;
+    font-size: 35px;
+    float: left;
+  }
+  
+  .content{
+    background-size: cover;
+    padding: 20px 100px;
+  }
+  
+  .btn {
+    display: block;
+    align: center;
+  }
+  
+  button {
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: Mukta;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 32px;
+    box-shadow: 0px 4px 30px 2px #98bff9;
+    background-color: #98bff9;
+    color: white;
+    background: linear-gradient(to bottom right, #d19bea, #98bff9);
+    cursor: pointer;
+    transition: 0.9s;
+  }
+  
+  button:hover {
+    color: #98bff9;
+    background: white;
+    box-shadow: 0px 8px 50px 5px #98bff9;
+  }
+  
+  .banner-title h1{
+    font-size: 50px; 
+    font-family: Mukta;
+    display: block; 
+    width: 70%;
+  }
